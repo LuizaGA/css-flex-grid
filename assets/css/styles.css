@@ -117,10 +117,17 @@ body {
   background-color: #2C343A;
 }
 
+.cartao--destaque{
+  margin-bottom: 16px;
+}
+
 .cartao__conteudo {
   padding: 16px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  /* row-gap: 8px;
+  column-gap: 8px; */
 }
 
 .cartao__destaque {
